@@ -1,0 +1,7 @@
+{
+  "blocked": true,
+  "complete": true,
+  "module_loaded": false,
+  "phase": "context",
+  "reason": "Apple app-context startup includes preference migration. Further context probes require a separately isolated environment and the explicit isolated-context build feature."
+}

@@ -1,0 +1,9 @@
+{
+  "apple_subscription_playback_verified": false,
+  "audible_output_verified": false,
+  "duration_seconds": 30.02340136,
+  "passed": true,
+  "scope": "live Apple preview decoded and playback clock advanced",
+  "track": "Get Lucky",
+  "volume": 0
+}

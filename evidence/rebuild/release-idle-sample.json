@@ -1,0 +1,30 @@
+{
+  "scope": "One final release process during isolated idle startup; no original-app comparison",
+  "executableSha256": "C6F9650D189CC22E9007A0BD15644EB952301193D599AA76E80BF0858E63BA79",
+  "samples": [
+    {
+      "elapsedSample": 1,
+      "workingSetBytes": 83144704,
+      "privateBytes": 79155200,
+      "cpuSeconds": 0.484375,
+      "threads": 22
+    },
+    {
+      "elapsedSample": 2,
+      "workingSetBytes": 86568960,
+      "privateBytes": 82604032,
+      "cpuSeconds": 0.484375,
+      "threads": 25
+    },
+    {
+      "elapsedSample": 3,
+      "workingSetBytes": 86769664,
+      "privateBytes": 82767872,
+      "cpuSeconds": 0.484375,
+      "threads": 25
+    }
+  ],
+  "directChildren": [],
+  "browserOrPrivateAppleModules": [],
+  "exitCode": 0
+}

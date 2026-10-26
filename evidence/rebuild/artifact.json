@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-26",
+  "executableSha256": "C6F9650D189CC22E9007A0BD15644EB952301193D599AA76E80BF0858E63BA79",
+  "zipSha256": "70E100BE87DEB9A93CDBD6B4FEC70CCE6E7510827E876B5DC30EF93797276234",
+  "zipExeMatches": true,
+  "entries": [
+    {
+      "FullName": "Cadence.exe",
+      "Length": 15730688
+    },
+    {
+      "FullName": "README.md",
+      "Length": 5505
+    },
+    {
+      "FullName": "VERIFICATION.md",
+      "Length": 5744
+    },
+    {
+      "FullName": "SHA256SUMS.txt",
+      "Length": 239
+    }
+  ],
+  "testsPassed": 16,
+  "testsIgnored": 1,
+  "branch": "codex/native-music-prototype",
+  "commits": 0,
+  "push": false,
+  "pullRequest": false,
+  "fullAppleMusicReplacement": false,
+  "recordType": "local-build-snapshot-before-initial-repository-publication"
+}

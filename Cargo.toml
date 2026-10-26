@@ -1,0 +1,29 @@
+[package]
+name = "cadence"
+version = "0.1.0"
+edition = "2024"
+description = "A standalone Rust desktop client for Apple Music on Windows"
+
+[dependencies]
+eframe = { version = "0.37", default-features = false, features = ["glow", "default_fonts", "accesskit", "system_fonts"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "json", "rustls-tls"] }
+image = { version = "0.25", default-features = false, features = ["jpeg", "png"] }
+rfd = "0.17"
+rodio = { version = "0.21.1", default-features = false, features = ["playback", "symphonia-all"] }
+rusqlite = { version = "0.40.2", features = ["bundled"] }
+rand = "0.8"
+symphonia = { version = "0.5.5", features = ["all"] }
+windows = { version = "0.62", features = ["Foundation", "Media", "Win32_System_WinRT", "Win32_Foundation"] }
+url = "2"
+directories = "6"
+raw-window-handle = "0.6"
+
+[dev-dependencies]
+tempfile = "3"
+
+[profile.release]
+lto = "thin"
+strip = true
+codegen-units = 1

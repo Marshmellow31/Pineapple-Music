@@ -1,0 +1,18 @@
+{
+  "apple_subscription_playback_verified": false,
+  "audible_output_verified": false,
+  "checks": [
+    "local audio loaded",
+    "playback clock advanced",
+    "pause event",
+    "seek while paused",
+    "resume and end-of-track event"
+  ],
+  "decoder": "Symphonia via Rodio",
+  "format": "m4a",
+  "imported_artist": "Cadence diagnostics",
+  "imported_title": "Cadence ALAC diagnostic",
+  "output": "48000 Hz / 2 channels",
+  "passed": true,
+  "volume": 0
+}
